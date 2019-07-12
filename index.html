@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+  <!--viewport-->
+    <meta name=viewport content="width=device-width, initial-scale=1.0">
+    <title>TIENDA XD</title>
+  <!--Googlefonts-->
+    <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT:400,
+    700&display=swap" rel="stylesheet">
+  <!--Fontawesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+    crossorigin="anonymous">
+  <!--Mis estilos-->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <!--ejercicio
+    <style media="screen">
+      .container {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 20px;
+      }
+      .item {
+        border: 1px solid black;
+        font-family: monospace;
+        font-size: 3rem;
+        background-color: gold;
+      }
+    </style>
+    <div class="container">
+      <div class="item">1</div>
+      <div class="item">2</div>
+      <div class="item">3</div>
+      <div class="item">4</div>
+      <div class="item">5</div>
+      <div class="item">6</div>
+      <div class="item">7</div>
+      <div class="item">8</div>
+      <div class="item">9</div>
+      <div class="item">10</div>
+    </div>
+  -->
+  </head>
+
+  <body>
+  <!--Barra navegacion-->
+  <header class="header">
+    <nav class="nav row">
+      <div class="nav__logo">
+        <img src="assets/img/logo.png" alt="">
+      </div>
+      <div class="collapsible col-xs-12">
+        <input type="checkbox" id="menu">
+        <label for="menu"><i class="fas fa-bars"></i></label>
+      </div>
+      <div class="nav__container">
+        <ul class="nav__list">
+          <li class="nav__item nav__item--1"><a href="#">Mujeres</a></li>
+          <li class="nav__item nav__item--2"><a href="#">Hombres</a></li>
+          <li class="nav__item nav__item--3"><a href="#">Accesorios</a></li>
+          <li class="nav__item nav__item--4"><a href="#">Blog</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <!--Article-->
+    <article class="article">
+      <h1 class="article__title">Dolor sit amet <br>Lorem ipsum</h1>
+      <h6 class="article__subtitle">Lorem ipsum dolor sit amet amet, <br>consectetur
+        adipisicing elit, sed do <br>
+        tempor incididunt ut labore et <br>dolore magna aliqua. Ut enim <br>ad minim
+        veniam, quis nostrud<br>ullamco laboris nisi ut aliquip br ex.<br>
+        Duis aute irure dolor in reprehende <br> in voluptate
+        velit esse cillum dolore eu. <br>Excepteur sint occaecat
+        cupidatat non. <br></h6>
+        <div class="div--button">
+          <button class="button" type="button" name="button">Ir a tienda</button>
+        </div>
+
+    </article>
+   <!--section-->
+    <section class="section">
+      <figure class="section__figure">
+        <picture>
+          <source media="min-width(1200px)" srcset="assets/img/retrato.png">
+          <source media="min-width(768px)" srcset="assets/img/table.png">
+          <source media="min-width(576px)" srcset="assets/img/mobile.png">
+            <img src="assets/img/retrato.png" alt="">
+        </picture>
+      </figure>
+    </section>
+  <!--footer-->
+    <footer class="footer">
+     <form class="footer__form">
+        <h6>Newsletters</h6>
+        <p>Correo Electrónico<p>
+        <input type="text" name="" value="Ingresa tu correo electrónico">
+      </form>
+
+      <aside class="footer__aside">
+        <p class="footer__p--1">Suscribir</p>
+      </aside>
+
+    </footer>
+
+
+
+  </body>
+</html>

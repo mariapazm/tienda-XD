@@ -1,0 +1,11 @@
+
+.nav {
+  display: none;
+}
+
+@media only screen and (min-width: 1200px) {
+  .nav {
+    display: inline-block;
+    width: 100%;
+  }
+}

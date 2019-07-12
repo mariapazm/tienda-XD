@@ -1,0 +1,21 @@
+.div--button {
+  padding: 0 3rem 10rem 3rem;
+}
+.button {
+  font-weight: $bold;
+  font-size: $large;
+  color: $smoky-black;
+  padding: 10px 30px;
+  background-color: $white;
+  border: 1px solid $light-gray;
+  text-decoration: none;
+
+  &:hover {
+    border-color: $isabelline;
+  }
+
+  &:focus {
+    border-color: $isabelline;
+    color: $isabelline;
+  }
+}

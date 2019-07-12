@@ -1,0 +1,56 @@
+.footer {
+  position: relative;
+  display: flex;
+  bottom: 22rem;
+  width: 40.6rem;
+  height: 12rem;
+  background-color: $smoky-black;
+  color:$white;
+  font-size: $large;
+
+
+  p {
+    font-size: $x-large;
+    margin-bottom: 0.4rem;
+  }
+
+  h6 {
+  font-size: $xx-large;
+  margin-bottom: 1rem;
+  }
+
+  input {
+    font-size: $x-small;
+    color: $smoky-black;
+    border-color: $isabelline;
+    padding: 0 2rem;
+    letter-spacing: -0.05em;
+  }
+}
+
+.footer__form {
+  position: relative;
+  padding: 1.7rem 1.7rem;
+  font-style: $x-large;
+
+}
+
+.footer__aside {
+  width: 4rem;
+  height: 16rem;
+  padding: 1rem 0 0 0;
+  background-color: $white;
+  color: $smoky-black;
+  position: relative;
+  left: 52%;
+  margin-bottom: 10rem;
+  z-index: 1;
+}
+
+.footer__p--1 {
+  position: relative;
+  top: 3rem;
+  font-size: $x-large;
+  writing-mode: vertical-lr;
+
+}

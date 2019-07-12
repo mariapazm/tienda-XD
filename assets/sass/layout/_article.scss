@@ -1,0 +1,24 @@
+@media only screen and (min-width: 1200px){
+  .article {
+    position: relative;
+    justify-content: flex-start;
+  }
+
+  .article__title {
+    position: relative;
+    padding: 0.5rem 1rem 1rem 3rem;
+    font-weight: $bold;
+    font-size: $xxx-large;
+    text-transform: uppercase;
+
+  }
+
+  .article__subtitle {
+    position: relative;
+    padding-left: 3rem;
+    padding-bottom: 1rem;
+    font-size: $x-large;
+
+  }
+
+}
